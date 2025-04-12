@@ -1,0 +1,59 @@
+# Dependências
+#pode ser **/node_modules ou como abaixo
+node_modules/
+
+# Build do Next.js
+.next/
+out/
+
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de build do sistema
+dist/
+build/
+
+# Arquivos do sistema Linux e WSL
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos gerados por pacote de lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de análise de erros
+coverage/
+*.lcov
+
+# Arquivos de saída temporários
+*.tgz
+*.zip
+
+# Pastas temporárias
+tmp/
+temp/
+
+# Arquivos de configuração locais
+.nvmrc
+
