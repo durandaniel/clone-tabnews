@@ -1,0 +1,9 @@
+# root = true diz que pode parar de procurar nas pastas acima desta e usar este arquivo de .editorconfig  se não tiver o editor config vai procurar até achar um que tenha o root = true
+root = true
+
+# diz que serve para todos os arquivos SE QUISESSE SÓ JS SERIA [.js]
+[*] 
+# definindo que o formato de identação será "space" e não "tab" por exemplo
+indent_style = space 
+# definindo que a quantidade de spaces será 2 (js por exemplo recomenda 2 mas o vscode coloca 4 por padrão)
+indent_size = 2
